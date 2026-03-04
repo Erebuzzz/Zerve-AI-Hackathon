@@ -35,12 +35,12 @@ blocks:
   name: eda_retention_by_behavior
   parent_id: null
   properties: {}
-  status: 4
+  status: 3
   type: 1
   variables: null
   width: 1600
-  x: 4000
-  y: 2800
+  x: 8000
+  y: 9800
 - auto_size: false
   canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
   compute_settings: null
@@ -71,12 +71,12 @@ blocks:
   name: train_baseline_and_main_models
   parent_id: null
   properties: {}
-  status: 4
+  status: 3
   type: 1
   variables: null
   width: 1600
-  x: 8000
-  y: 2800
+  x: 10000
+  y: 12600
 - auto_size: false
   canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
   compute_settings: null
@@ -107,12 +107,12 @@ blocks:
   name: eda_event_taxonomy
   parent_id: null
   properties: {}
-  status: 4
+  status: 3
   type: 1
   variables: null
   width: 1600
-  x: 4000
-  y: 0
+  x: 8000
+  y: 8400
 - auto_size: false
   canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
   compute_settings: null
@@ -125,12 +125,12 @@ blocks:
   name: executive_summary_charts
   parent_id: null
   properties: {}
-  status: 4
+  status: 3
   type: 1
   variables: null
   width: 1600
-  x: 18000
-  y: 2800
+  x: 14000
+  y: 14000
 - auto_size: false
   canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
   compute_settings: null
@@ -144,12 +144,12 @@ blocks:
   name: behavioral_clustering
   parent_id: null
   properties: {}
-  status: 4
+  status: 3
   type: 1
   variables: null
   width: 1600
-  x: 14000
-  y: 2800
+  x: 10000
+  y: 14000
 - auto_size: false
   canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
   compute_settings: null
@@ -217,12 +217,12 @@ blocks:
   name: eda_user_timelines
   parent_id: null
   properties: {}
-  status: 4
+  status: 3
   type: 1
   variables: null
   width: 1600
-  x: 4000
-  y: 1400
+  x: 8000
+  y: 7000
 - auto_size: false
   canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
   compute_settings: null
@@ -234,12 +234,30 @@ blocks:
   name: compute_labels_and_features
   parent_id: null
   properties: {}
-  status: 4
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 8000
+  y: 11200
+- auto_size: false
+  canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
+  compute_settings: null
+  description: Logs feature matrix schema (60 features by dtype/stats/group) to JSON,
+    displays feature distribution summary, validates all 6 derived features present,
+    and renders correlation heatmap with high-correlation pair detection
+  height: 1000
+  id: c12ec6b4-5079-4f8a-bc67-a32bfcb2321b
+  layer_id: f9e8fe44-b4cc-401d-ba07-103f3bb04de1
+  name: feature_schema_and_heatmap
+  parent_id: null
+  properties: {}
+  status: 3
   type: 1
   variables: null
   width: 1600
   x: 6000
-  y: 2800
+  y: 4200
 - auto_size: false
   canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
   compute_settings: null
@@ -251,12 +269,12 @@ blocks:
   name: calibration_and_comparison_charts
   parent_id: null
   properties: {}
-  status: 4
+  status: 3
   type: 1
   variables: null
   width: 1600
-  x: 10000
-  y: 2800
+  x: 12000
+  y: 14000
 - auto_size: false
   canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
   compute_settings: null
@@ -269,12 +287,12 @@ blocks:
   name: shap_analysis
   parent_id: null
   properties: {}
-  status: 4
+  status: 3
   type: 1
   variables: null
   width: 1600
   x: 12000
-  y: 2800
+  y: 12600
 - auto_size: false
   canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
   compute_settings: null
@@ -287,12 +305,12 @@ blocks:
   name: propensity_impact_analysis
   parent_id: null
   properties: {}
-  status: 4
+  status: 3
   type: 1
   variables: null
   width: 1600
-  x: 16000
-  y: 2800
+  x: 12000
+  y: 15400
 - auto_size: false
   canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
   compute_settings: null
@@ -323,12 +341,12 @@ blocks:
   name: feature_engineering_v2
   parent_id: null
   properties: {}
-  status: 4
+  status: 3
   type: 1
   variables: null
   width: 1600
-  x: 8000
-  y: 4200
+  x: 10000
+  y: 11200
 - auto_size: false
   canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
   compute_settings: null
@@ -347,40 +365,22 @@ blocks:
   width: 1600
   x: 0
   y: 0
-- auto_size: false
-  canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
-  compute_settings: null
-  description: Logs feature matrix schema (60 features by dtype/stats/group) to JSON,
-    displays feature distribution summary, validates all 6 derived features present,
-    and renders correlation heatmap with high-correlation pair detection
-  height: 1000
-  id: c12ec6b4-5079-4f8a-bc67-a32bfcb2321b
-  layer_id: f9e8fe44-b4cc-401d-ba07-103f3bb04de1
-  name: feature_schema_and_heatmap
-  parent_id: null
-  properties: {}
-  status: 3
-  type: 1
-  variables: null
-  width: 1600
-  x: 6000
-  y: 4200
 edges:
 - canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
-  id: eba8e909-1b68-4678-8ff6-9f844d24b0b8
+  id: 06986a5f-f2cc-4133-8932-626338d9e771
   layer_id: f9e8fe44-b4cc-401d-ba07-103f3bb04de1
-  source: 41f6cd1b-7399-4007-90ef-5aff1ebc95d1
-  target: c12ec6b4-5079-4f8a-bc67-a32bfcb2321b
+  source: ddeed5dc-f5db-4366-a6c3-73565a596ced
+  target: 41f6cd1b-7399-4007-90ef-5aff1ebc95d1
 - canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
   id: 092cf2e4-79ba-49b5-a1e6-fae6bd8f7185
   layer_id: f9e8fe44-b4cc-401d-ba07-103f3bb04de1
   source: a4bcf08f-3733-428e-a78a-83ca39a0ec99
   target: 8375923b-d264-4aa0-91e9-972a582628cb
 - canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
-  id: fda54e20-92fb-4fd9-9146-a3470f0fc1ea
+  id: 52b6db03-fc1a-4fe1-b381-7ab41fe8f7bc
   layer_id: f9e8fe44-b4cc-401d-ba07-103f3bb04de1
-  source: e75acc9f-8b1f-499c-8ce8-cb83037c8f3c
-  target: ddeed5dc-f5db-4366-a6c3-73565a596ced
+  source: c12ec6b4-5079-4f8a-bc67-a32bfcb2321b
+  target: a4bcf08f-3733-428e-a78a-83ca39a0ec99
 - canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
   id: 67eb5636-ae03-471e-b764-dd62bc103582
   layer_id: f9e8fe44-b4cc-401d-ba07-103f3bb04de1
@@ -392,17 +392,112 @@ edges:
   source: a4bcf08f-3733-428e-a78a-83ca39a0ec99
   target: 0b5cc730-24fe-4bfd-82dd-8ee13e585533
 - canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
-  id: 06986a5f-f2cc-4133-8932-626338d9e771
-  layer_id: f9e8fe44-b4cc-401d-ba07-103f3bb04de1
-  source: ddeed5dc-f5db-4366-a6c3-73565a596ced
-  target: 41f6cd1b-7399-4007-90ef-5aff1ebc95d1
-- canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
-  id: 52b6db03-fc1a-4fe1-b381-7ab41fe8f7bc
-  layer_id: f9e8fe44-b4cc-401d-ba07-103f3bb04de1
-  source: c12ec6b4-5079-4f8a-bc67-a32bfcb2321b
-  target: a4bcf08f-3733-428e-a78a-83ca39a0ec99
-- canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
   id: ad1834ab-d025-4154-93d5-847cb916fffc
   layer_id: f9e8fe44-b4cc-401d-ba07-103f3bb04de1
   source: 8375923b-d264-4aa0-91e9-972a582628cb
   target: a45e3df6-7bfd-45b2-b7a7-40d8760eb024
+- canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
+  id: eba8e909-1b68-4678-8ff6-9f844d24b0b8
+  layer_id: f9e8fe44-b4cc-401d-ba07-103f3bb04de1
+  source: 41f6cd1b-7399-4007-90ef-5aff1ebc95d1
+  target: c12ec6b4-5079-4f8a-bc67-a32bfcb2321b
+- canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
+  id: fda54e20-92fb-4fd9-9146-a3470f0fc1ea
+  layer_id: f9e8fe44-b4cc-401d-ba07-103f3bb04de1
+  source: e75acc9f-8b1f-499c-8ce8-cb83037c8f3c
+  target: ddeed5dc-f5db-4366-a6c3-73565a596ced
+- canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
+  id: 79f0c7bc-3430-405f-a87e-01463884b6be
+  layer_id: f9e8fe44-b4cc-401d-ba07-103f3bb04de1
+  source: 3aab90f7-9268-46f5-81a3-6fdfaca8c5d5
+  target: c140c1d2-e300-4be2-a4ed-ccd5d44b65e2
+- canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
+  id: 4c62f009-d6e9-4294-993a-7ec6db4b4295
+  layer_id: f9e8fe44-b4cc-401d-ba07-103f3bb04de1
+  source: bbbda172-8f8f-4dc1-a568-f9cc502aa95d
+  target: e3774dc3-d0ac-42cf-b25c-08fd07a96e13
+- canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
+  id: f3588ed2-07fe-4871-bd89-c935b13565d3
+  layer_id: f9e8fe44-b4cc-401d-ba07-103f3bb04de1
+  source: c12ec6b4-5079-4f8a-bc67-a32bfcb2321b
+  target: 453e33b4-f975-479d-a0f2-21b9dcfa4f1c
+- canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
+  id: 589f4c25-fa83-4b9a-9f80-fe80066e72a5
+  layer_id: f9e8fe44-b4cc-401d-ba07-103f3bb04de1
+  source: c12ec6b4-5079-4f8a-bc67-a32bfcb2321b
+  target: a83cdf0b-b2b6-4c52-9eb2-6e20375cec25
+- canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
+  id: fedf543d-e241-4ece-8702-94e314bc0ba1
+  layer_id: f9e8fe44-b4cc-401d-ba07-103f3bb04de1
+  source: bbbda172-8f8f-4dc1-a568-f9cc502aa95d
+  target: 5f4bdfd7-d235-42e3-96d9-d0a6cc02b35d
+- canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
+  id: 9ba9a096-5cb1-49d7-8b26-2a80b63dc2f4
+  layer_id: f9e8fe44-b4cc-401d-ba07-103f3bb04de1
+  source: c12ec6b4-5079-4f8a-bc67-a32bfcb2321b
+  target: cb6f29fe-ac36-4794-afa9-180111a1a88a
+- canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
+  id: bca3a61a-c279-4f81-8947-074b3be98da9
+  layer_id: f9e8fe44-b4cc-401d-ba07-103f3bb04de1
+  source: bbbda172-8f8f-4dc1-a568-f9cc502aa95d
+  target: 3aab90f7-9268-46f5-81a3-6fdfaca8c5d5
+- canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
+  id: b4ad0d0f-ffbb-4939-a25c-29a6bfbb7fb5
+  layer_id: f9e8fe44-b4cc-401d-ba07-103f3bb04de1
+  source: c12ec6b4-5079-4f8a-bc67-a32bfcb2321b
+  target: cd5949f6-c63e-4408-9c66-7562afea75d7
+- canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
+  id: 19c0b791-4d4f-4fce-ae3b-35fab4362872
+  layer_id: f9e8fe44-b4cc-401d-ba07-103f3bb04de1
+  source: cb6f29fe-ac36-4794-afa9-180111a1a88a
+  target: 522d458a-57e2-4744-965d-6fa58436e04a
+- canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
+  id: a156c005-a144-41a8-ae4b-d5b6fd484a1e
+  layer_id: f9e8fe44-b4cc-401d-ba07-103f3bb04de1
+  source: c12ec6b4-5079-4f8a-bc67-a32bfcb2321b
+  target: 19a8eace-3997-4851-9618-bf95ca6ed606
+- canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
+  id: 38b0970d-2859-4bcd-b868-222a5b089e37
+  layer_id: f9e8fe44-b4cc-401d-ba07-103f3bb04de1
+  source: 3aab90f7-9268-46f5-81a3-6fdfaca8c5d5
+  target: cd5949f6-c63e-4408-9c66-7562afea75d7
+- canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
+  id: db20ca94-de5f-474b-b561-78d4a870b700
+  layer_id: f9e8fe44-b4cc-401d-ba07-103f3bb04de1
+  source: c12ec6b4-5079-4f8a-bc67-a32bfcb2321b
+  target: c140c1d2-e300-4be2-a4ed-ccd5d44b65e2
+- canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
+  id: e6971873-5b12-4b6c-849d-e6357641d09a
+  layer_id: f9e8fe44-b4cc-401d-ba07-103f3bb04de1
+  source: c12ec6b4-5079-4f8a-bc67-a32bfcb2321b
+  target: e3774dc3-d0ac-42cf-b25c-08fd07a96e13
+- canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
+  id: 57cce9f5-ffba-4df6-9875-9f1adf4ee3da
+  layer_id: f9e8fe44-b4cc-401d-ba07-103f3bb04de1
+  source: 3aab90f7-9268-46f5-81a3-6fdfaca8c5d5
+  target: 522d458a-57e2-4744-965d-6fa58436e04a
+- canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
+  id: 61e44954-e859-4ef4-a73e-4823f6546e0e
+  layer_id: f9e8fe44-b4cc-401d-ba07-103f3bb04de1
+  source: 5f4bdfd7-d235-42e3-96d9-d0a6cc02b35d
+  target: 522d458a-57e2-4744-965d-6fa58436e04a
+- canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
+  id: 1ec6a05a-5402-4bd3-9b90-3441baea0c09
+  layer_id: f9e8fe44-b4cc-401d-ba07-103f3bb04de1
+  source: c12ec6b4-5079-4f8a-bc67-a32bfcb2321b
+  target: 3aab90f7-9268-46f5-81a3-6fdfaca8c5d5
+- canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
+  id: a4495c04-b514-4094-930f-1439cf9be10d
+  layer_id: f9e8fe44-b4cc-401d-ba07-103f3bb04de1
+  source: c12ec6b4-5079-4f8a-bc67-a32bfcb2321b
+  target: bbbda172-8f8f-4dc1-a568-f9cc502aa95d
+- canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
+  id: 8f1ccdfd-7c41-445c-965e-dcb33b529823
+  layer_id: f9e8fe44-b4cc-401d-ba07-103f3bb04de1
+  source: c12ec6b4-5079-4f8a-bc67-a32bfcb2321b
+  target: 5f4bdfd7-d235-42e3-96d9-d0a6cc02b35d
+- canvas_id: 88892245-f733-4b7c-a185-c1983eb4d9e0
+  id: beba0eb6-4565-4552-9918-b9282c2b3a77
+  layer_id: f9e8fe44-b4cc-401d-ba07-103f3bb04de1
+  source: 3aab90f7-9268-46f5-81a3-6fdfaca8c5d5
+  target: cb6f29fe-ac36-4794-afa9-180111a1a88a
