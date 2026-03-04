@@ -1,10 +1,10 @@
-# BuilderFlow — Zerve 2026 Hackathon
+# BuilderFlow: Zerve 2026 Hackathon
 
 > **Bridging the gap between AI generation and platform retention.**
 
 ## 📊 TL;DR
 
-We analyzed 226.6K behavioral events from 1,472 users to identify what separates power users from churners. Using 51 leakage-free features from the first 7 days of activity, we built a calibrated XGBoost model (PR-AUC 0.269) that identifies users 2.56× more likely to retain. We discovered 6 behavioral archetypes — from "Hands-On Builders" (81% retention) to "Casual Browsers" (4%) — and prioritized 4 concrete product interventions with measurable uplift estimates.
+We analyzed 226.6K behavioral events from 1,472 users to identify what separates power users from churners. Using 51 leakage-free features from the first 7 days of activity, we built a calibrated XGBoost model (PR-AUC 0.269) that identifies users 2.56× more likely to retain. We discovered 6 behavioral archetypes; from "Hands-On Builders" (81% retention) to "Casual Browsers" (4%); and prioritized 4 concrete product interventions with measurable uplift estimates.
 
 ## 🏗️ Project Structure
 
@@ -107,4 +107,4 @@ See [REPRODUCTION_GUIDE.md](88892245-f733-4b7c-a185-c1983eb4d9e0/REPRODUCTION_GU
 
 ## 📄 License
 
-MIT License — see [LICENSE](LICENSE)
+MIT License: see [LICENSE](LICENSE)
