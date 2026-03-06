@@ -6,6 +6,8 @@
 
 We analyzed 226.6K behavioral events from 1,472 users to identify what separates power users from churners. Using 51 leakage-free features from the first 7 days of activity, we built a calibrated XGBoost model (PR-AUC 0.269) that identifies users 2.56× more likely to retain. We discovered 6 behavioral archetypes; from "Hands-On Builders" (81% retention) to "Casual Browsers" (4%); and prioritized 4 concrete product interventions with measurable uplift estimates.
 
+📄 **[Read the full Written Summary →](builderflow/WRITTEN_SUMMARY.md)** (question, methodology, findings)
+
 ## 🏗️ Project Structure
 
 ```
